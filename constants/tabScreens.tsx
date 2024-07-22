@@ -25,7 +25,7 @@ const screens = [
   {
     name: "Create",
     title: "Create",
-
+    icon: icons.create
   },
   {
     name: "Analytics",
