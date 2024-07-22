@@ -9,7 +9,7 @@ interface TabProps {
   color: string
   focused?: boolean
   name?: string
-  icon: ImageSourcePropType | undefined
+  icon: ImageSourcePropType
 }
 const TabIcon: React.FC<TabProps> = ({ color, focused, icon, name }) => {
   return <View>
